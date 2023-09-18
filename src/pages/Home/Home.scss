@@ -1,0 +1,20 @@
+@import '../../style.scss';
+.home{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        display: flex;
+        border-radius: 10px;
+        width: 65%;
+        height: 80%;
+        overflow: hidden;
+        @include tablet{
+            width: 90%;
+          }
+
+    }
+}
